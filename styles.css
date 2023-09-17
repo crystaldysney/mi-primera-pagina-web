@@ -1,37 +1,69 @@
-/* Estilos para el encabezado */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilos para la barra de navegación */
-nav ul {
-    list-style-type: none;
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eba6e5;
+    color: #333; /* Color de fuente principal */
+    margin: 0;
     padding: 0;
 }
 
-nav li {
+header {
+    background-color: #6a0572; /* Color violeta para el encabezado */
+    color: #f5f1f5; /* Texto en blanco para el encabezado */
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #6a0572; /* Color violeta para el menú de navegación */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* Texto en blanco para los enlaces del menú */
     font-weight: bold;
 }
 
 /* Estilos para las secciones */
 section {
+    padding: 20px;
     margin: 20px;
+    background-color: #bfdef0; /* Fondo blanco para las secciones */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los proyectos */
+.proyecto {
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    color: #6a0572; /* Color violeta para los títulos de proyecto */
+}
+
+.proyecto a {
+    color: #333; /* Color de enlace predeterminado */
+}
+
+.proyecto a:hover {
+    color: #6a0572; /* Cambio de color al pasar el cursor sobre los enlaces */
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
+    background-color: #6a0572; /* Color violeta para el pie de página */
+    color: #fff; /* Texto en blanco para el pie de página */
     padding: 10px;
 }
